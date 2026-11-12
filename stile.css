@@ -1,0 +1,115 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(145deg, #101827, #172b38, #123d35);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 430px;
+}
+
+.topo {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.icone {
+  font-size: 65px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.topo p {
+  color: #c4d5d0;
+  font-size: 15px;
+}
+
+.cartao {
+  background: #ffffff;
+  color: #263238;
+  padding: 28px 24px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+.cartao h2 {
+  color: #16734c;
+  margin-bottom: 12px;
+  font-size: 23px;
+}
+
+.cartao > p {
+  color: #64736d;
+  line-height: 1.5;
+  margin-bottom: 22px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 16px 0 8px;
+}
+
+input, select {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d6dfda;
+  border-radius: 10px;
+  background: #f8faf9;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus, select:focus {
+  border-color: #168653;
+  box-shadow: 0 0 0 2px rgba(22,134,83,0.12);
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 24px;
+  border: none;
+  border-radius: 10px;
+  background: #168653;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #106b40;
+}
+
+.mensagem {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: #c4d5d0;
+  margin-top: 25px;
+  font-size: 14px;
+}
