@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <title>Amigo Secreto 🎁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="topo">
+      <div class="icone">🎁</div>
+      <h1>Amigo Secreto</h1>
+      <p>Uma surpresa especial espera por você!</p>
+    </header>
+
+    <section class="cartao">
+      <h2>🎄 Bem-vindo!</h2>
+      <p>
+        Entre com seu nome e confirme sua identidade
+        para descobrir quem você tirou.
+      </p>
+
+      <form id="loginForm">
+        <label for="nome">Seu nome</label>
+        <select id="nome" required>
+          <option value="">Selecione seu nome</option>
+          <option>Bia</option>
+          <option>Edivanio</option>
+          <option>Biel</option>
+          <option>Alex</option>
+          <option>Estefane</option>
+          <option>Andre</option>
+          <option>Carla</option>
+          <option>Tailane</option>
+          <option>Monica</option>
+          <option>Anderson</option>
+          <option>Naty</option>
+          <option>Rafa</option>
+        </select>
+
+        <label for="codigo">Dois últimos números do telefone</label>
+        <input
+          id="codigo"
+          type="text"
+          inputmode="numeric"
+          maxlength="2"
+          placeholder="Ex.: 16"
+          required
+        >
+
+        <label for="senha">Crie ou informe sua senha</label>
+        <input
+          id="senha"
+          type="password"
+          placeholder="Sua senha pessoal"
+          required
+        >
+
+        <button type="submit">Entrar no amigo secreto</button>
+      </form>
+
+      <p id="mensagem" class="mensagem" aria-live="polite"></p>
+    </section>
+
+    <footer>
+      <p>🎅 Que comece a brincadeira!</p>
+    </footer>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
